@@ -9,6 +9,6 @@ if &syntax =~# '\(^\|\.\)coffee\($\|\.\)' | finish | endif
 " javascriptX = https://github.com/othree/yajs.vim
 call css_color#init('hex', 'extended'
 	\,  'javaScriptComment,javaScriptLineComment,javaScriptStringS,javaScriptStringD,javaScriptStringT'
-	\. ',jsComment,jsString,jsTemplateString,jsObjectKeyString,jsObjectStringKey,jsClassStringKey'
+	\. ',jsComment,jsString,jsTemplateString,jsObject,jsObjectValue,jsObjectKeyString,jsObjectStringKey,jsClassStringKey'
 	\. ',javascriptComment,javascriptLineComment,javascriptLineComment,javascriptString,javascriptTemplate'
 	\)
